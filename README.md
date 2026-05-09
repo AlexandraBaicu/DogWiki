@@ -2,7 +2,7 @@
 
 Nume Prenume: Baicu Alexandra-Paula
 Grupa: 1145 SIMPRE
-Link video prezentare:
+Link video prezentare: https://youtu.be/Ihq6Mt-vmR8
 Link publicare: https://dog-wiki-eight.vercel.app/ 
 
 1. Introducere
