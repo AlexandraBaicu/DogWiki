@@ -45,7 +45,19 @@ Sa zicem ca user-ul cauta rasa "Husky". In spate, aplicatia face un request HTTP
 Dupa ce prind datele acestea asincron (cu async/await), extrag doar proprietatea `extract` din JSON si o afisez reorganizata pe ecran. In paralel se face si request-ul pentru poza la `https://dog.ceo/api/breed/husky/images/random` ca sa se incarce deodata cu textul.
 
 5. Capturi ecran aplicatie
-<img width="1540" height="847" alt="image" src="https://github.com/user-attachments/assets/85789e30-bb46-4296-becb-967ab56bb47a" />
+1. Partea de Login
+<img width="1635" height="778" alt="image" src="https://github.com/user-attachments/assets/0885470f-1d16-471d-95b3-adcf71951697" />
+2. Cauta rasa de caine dorita ( daca nu stii ce rasa vrei sa vezi , poti apasa pe zar si iti va afisa random o rasa )
+<img width="1880" height="936" alt="image" src="https://github.com/user-attachments/assets/b2728109-bbb3-4be7-8615-401acad65cfb" />
+3. Poti adauga in lista ta de favorite
+<img width="1268" height="617" alt="image" src="https://github.com/user-attachments/assets/2eb5df70-e3db-4935-b80b-3ce83a5065e7" />
+4. Exista si optiunea de citire a textului.
+<img width="1219" height="399" alt="image" src="https://github.com/user-attachments/assets/0d3a8ebd-d809-4c02-a218-627a9a717cd0" />
+
+
+
+
+
 
 
 7. Referinte
