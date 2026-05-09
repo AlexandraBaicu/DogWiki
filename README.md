@@ -1,14 +1,13 @@
 # Dog Explorer - Documentatie Proiect
 
-**Nume Prenume:** Baicu Alexandra-Paula
-**Grupa:** 1145 SIMPRE
-**Link video prezentare:** 
-**Link publicare (GitHub/Vercel):** 
+Nume Prenume: Baicu Alexandra-Paula
+Grupa: 1145 SIMPRE
+Link video prezentare:
+Link publicare: https://dog-wiki-eight.vercel.app/ 
 
 1. Introducere
-# DoggWiki 🐾
-
-Salut! DoggWiki este o mica aplicatie web pe care am facut-o ca sa poti cauta super usor informatii si poze cu diferite rase de caini. Am facut proiectul acesta in React (mai exact cu Vite) ca sa demonstrez practic cum pot sa integrez si sa gestionez mai multe servicii de cloud in aceeasi aplicatie (partea de conturi/logare si partea din care scot date prin API-uri REST).
+# DoggWiki 
+DoggWiki este o mica aplicatie web pe care am facut-o ca sa poti cauta super usor informatii si poze cu diferite rase de caini. Am facut proiectul acesta in React (mai exact cu Vite) ca sa demonstrez practic cum pot sa integrez si sa gestionez mai multe servicii de cloud in aceeasi aplicatie (partea de conturi/logare si partea din care scot date prin API-uri REST).
 
 2. Descriere problema
 Problema de la care am plecat e destul de simpla: de multe ori, cand vrei sa afli lucruri despre o rasa de caine, trebuie sa cauti poze pe un site, apoi sa intri pe Wikipedia pentru informatii, apoi sa cauti cat traieste si asa mai departe. 
@@ -22,7 +21,6 @@ Ca sa functioneze, aplicatia foloseste 3 servicii din cloud (dintre care 2 comun
 3. **Dog API (`dog.ceo`):** Un alt API public pe care l-am adaugat ca sa imi dea poze random si de calitate cu rasa pe care o scrie user-ul.
 
 4. Flux de date 
-
 Am folosit o arhitectura Client-Server clasica. Frontend-ul (interfata in React) face request-uri asincrone spre serverele externe ca sa aduca date.
 
 **Autentificare si Autorizare (prin Firebase):**
@@ -47,8 +45,10 @@ Sa zicem ca user-ul cauta rasa "Husky". In spate, aplicatia face un request HTTP
 Dupa ce prind datele acestea asincron (cu async/await), extrag doar proprietatea `extract` din JSON si o afisez reorganizata pe ecran. In paralel se face si request-ul pentru poza la `https://dog.ceo/api/breed/husky/images/random` ca sa se incarce deodata cu textul.
 
 5. Capturi ecran aplicatie
+<img width="1540" height="847" alt="image" src="https://github.com/user-attachments/assets/85789e30-bb46-4296-becb-967ab56bb47a" />
 
-6. Referinte
+
+7. Referinte
 1.React.js Official Documentation (Pentru arhitectura componentelor si state management) - https://react.dev/
 2.Vite.js Guide (Pentru configurarea rapida a mediului de dezvoltare) - https://vitejs.dev/guide/
 3.Firebase Authentication Docs (Pentru implementarea serviciului cloud de logare si persistenta) - https://firebase.google.com/docs/auth/web/start
